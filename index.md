@@ -73,3 +73,8 @@ Overall, I spent a lot of time on this project and faced many challenges, but no
 - https://github.com/Maulorian/LeagueUploader
 
 ## Project 4 : Creating a multiplayer Flappy Bird in the Browser
+
+I am a competitive gamer, and in a competitive game, players are synchronized across machines to a game state that occurs on a centralized server.
+
+Since I like a challenge, I had to learn how such a system works. As it turns out, Game Networking is one of the hardest engineering problems out there, which is even more fascinating.
+
