@@ -14,7 +14,7 @@ Both parts were deployed the platform **Heroku**
 
 The game is playable at:
 
-[connect4](https://connect4-vs-ai.herokuapp.com/)
+[https://connect4-vs-ai.herokuapp.com/](https://connect4-vs-ai.herokuapp.com/)
 
 ![connect4](connect4.png)
 
@@ -30,7 +30,7 @@ First written in Java, I rewrote the code in Javascript and HTML Canvas to be ab
 
 The game is playable at:
 
-[tetris](https://pretty-tetris.herokuapp.com/html/solo.html)
+[https://pretty-tetris.herokuapp.com/html/solo.html](https://pretty-tetris.herokuapp.com/html/solo.html)
 
 ![tetris](tetris.png)
 
@@ -55,13 +55,21 @@ The steps of the process are the following:
 6. **Upload** the video to the **Challenger Highlights** *Youtube* channel: https://www.youtube.com/channel/UCz2zp337iZ9xkpLDACxpRHA
 
 
-The biggest challenge I faced was reverse engineering and understanding Riot Games' viewer system. It works like this: once a game is running, people can watch it live. Once the game is over, it is no longer possible to watch it. Websites like OPGG and Porofessor actually save the packets used to recreate the replay of a game. And once you have those packets, you can open the Spectator client at any time.
+During this project I faced two huge challenges.
 
+- The first challenge I faced was reverse engineering and understanding Riot Games' viewer system. It works like this: once a game is running, people can watch it live. Once the game is over, it is no longer possible to watch it. Websites like OPGG and Porofessor actually save the packets used to recreate the replay of a game. And once you have those packets, you can open the Spectator client at any time.
 This was especially useful for me, because my system was based on watching the best possible games, and watching a game takes 30-40 minutes of real time, so a limited number of games can be watched per day.
-
 Therefore, I had to find a clever solution to optimize this valuable time. To that end, I created a microservice that scans the challenger's ranking (high elo) to see if a player is currently at the start of a game, and if yes, sends a request to the third-party website to start recording packets in its database. I would then put the match ID into a mongoDB database to save the fact that I have the ability to watch that match later.
-
 The main program on my desktop computer would then scan the database and retrieve information about completed matches, then choose the best match to watch.
 
-All in all, I spent weeks on this project and after all these challenges, I feel like I could, and want, to automate anything =D
+- The second challenge I faced was actually uploading the video, because Youtube's API requires you to verify your "application" in order to put your video in public, otherwise it remains locked in private. Also, Youtube has a video upload limit that only allows you to upload about a dozen videos per day.
+To solve this problem, I used Selenium to automate the upload through the browser itself. This solution allowed me to download 50 videos per day.
 
+Overall, I spent a lot of time on this project and faced many challenges, but now I feel like I can, and will, automate anything =D
+
+![](league.png)
+
+## Source code
+- https://github.com/Maulorian/LeagueUploader
+
+## Project 4 : Creating a multiplayer Flappy Bird in the Browser
