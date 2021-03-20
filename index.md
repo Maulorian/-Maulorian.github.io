@@ -82,6 +82,7 @@ During this project I learned about these different techniques:
 - Client prediction
 - Server reconciliation
 - Game loops
+
 I built the server side in node.js and the client side with the Javascript library pixi.js
 
 ![](flappy_piggy.png)
