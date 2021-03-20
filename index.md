@@ -6,11 +6,11 @@ There's nothing better than learning by doing, and the projects I've done taught
 
 ## Project 1 : Connect 4 Monte Carlo Search Tree
 
-This project consisted in learning how the _Monte Carlo Search Tree_ (MCTS) algorithm worked and how to implement it for Connect4.
+This project consisted in learning how the **Monte Carlo Search Tree** ([MCTS](https://www.wikiwand.com/en/Monte_Carlo_tree_search)) algorithm works and how to implement it for Connect4. I had already implement the [Minimax](https://www.wikiwand.com/en/Minimax) for the game but wanted to go further.
 
-I coded a frontend with the **Javascript** library **pixi.js** that communicates with a backend written in **Golang** that I learned for the occasion.
+I coded the frontend with the _Javascript_ library [PixiJS](https://www.pixijs.com/) that requests moves to an API written in _Golang_.
 
-Both parts were deployed on the platform **Heroku**.
+Both parts were deployed on the platform _Heroku_.
 
 The game is playable at:
 
@@ -24,7 +24,7 @@ The game is playable at:
 
 ## Project 2 : Tetris
 
-I have a big interest in thinking about how the first video games were made, because their gameplay are so simple and so awesome at the same time. With Tetris, I was intrigued by how the game mechanics worked, the collision, the rotation of pieces, what would happen when you complete a line and so forth. To figure it out, I decided to code my own.
+I always was interested in thinking about how the first video games were made, because their gameplay are so simple and so awesome at the same time. With Tetris, I was intrigued by how the game mechanics worked, the collision, the rotation of pieces, what would happen when you complete a line and so forth. To figure it out, I decided to code my own.
 
 First written in Java, I rewrote the code in Javascript with the help of HTML Canvas to be able to deploy it on the web.
 
@@ -65,7 +65,7 @@ The main program on my desktop computer would then scan the database and retriev
 - The second challenge I faced was actually uploading the video, because Youtube's API requires you to verify your "application" in order to put your video in public, otherwise it remains locked in private. Also, Youtube has a video upload limit that only allows you to upload about a dozen videos per day.
 To solve this problem, I used Selenium to automate the upload through the browser itself. This solution allowed me to upload 50 videos per day.
 
-For this project, I faced many challenges and had to think about a lot of programming solutions, but now I feel like I can, and will, automate anything =D
+For this project, I faced many challenges and had to think about a lot of different solutions.
 
 ![](league.png)
 
@@ -74,10 +74,10 @@ For this project, I faced many challenges and had to think about a lot of progra
 
 ## Project 4 : Creating a multiplayer Flappy Bird in the Browser
 
-I'm a competitive gamer and usually competitive game happen in a multiplayer scenario where players are synchronized across machines to a game state that occurs on a centralized server.
+I'm a competitive gamer and usually competitive game happen in a multiplayer scenario where players are synchronized across machines to a game state which occurs on a centralized server.
 
 Because I like engineering problems, I had to learn how such a system works. As it turns out, **Game Networking** is a very hard engineering problem.
-I choosed to make a multiplayer mode of the famous game _Flappy Bird_, and called it Flappy Piggy Online.
+I chose to make a multiplayer mode of the famous game _Flappy Bird_, and called it Flappy Piggy Online.
 
 During this project I had to learn about a lot of different networking techniques used in today's multiplayer game such as Counter Strike, Overwatch and Apex legends:
 - Client prediction
