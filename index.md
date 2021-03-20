@@ -1,4 +1,4 @@
-# Alexandre de Pape - Portofolio
+# Alexandre de Pape
 
 Welcome to my portofolio.
 
