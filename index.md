@@ -2,7 +2,7 @@
 
 Welcome to my portofolio.
 
-There's nothing better than learning by doing, and the projects I've done have made me much more comfortable writing code.
+There's nothing better than learning by doing, and the projects I've done taught me a lot about the programming world.
 
 ## Project 1 : Connect 4 Monte Carlo Search Tree
 
@@ -76,5 +76,15 @@ Overall, I spent a lot of time on this project and faced many challenges, but no
 
 I am a competitive gamer, and in a competitive game, players are synchronized across machines to a game state that occurs on a centralized server.
 
-Since I like a challenge, I had to learn how such a system works. As it turns out, Game Networking is one of the hardest engineering problems out there, which is even more fascinating.
+Because I like challenges so much, I had to learn how such a system works. As it turns out, Game Networking is a very hard engineering problems.
+For the game I choosed to try to make a multiplayer clone of the famous game Flappy Bird, I called it Flappy Piggy.
+During this project I learned about these different techniques:
+- Client prediction
+- Server reconciliation
+- Game loops
+I built the server side in node.js and the client side with the Javascript library pixi.js
 
+![](flappy_piggy.png)
+
+## Source code
+- https://github.com/Maulorian/Flappypiggy-Multiplayer
