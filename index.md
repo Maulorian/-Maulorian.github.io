@@ -74,7 +74,7 @@ Overall, I spent a lot of time on this project and faced many challenges, but no
 
 ## Project 4 : Creating a multiplayer Flappy Bird in the Browser
 
-I am a competitive gamer, and in a competitive game, players are synchronized across machines to a game state that occurs on a centralized server.
+I am a competitive gamer and usually competitive game happen in a multiplayer scenario where players are synchronized across machines to a game state that occurs on a centralized server.
 
 Because I like challenges so much, I had to learn how such a system works. As it turns out, Game Networking is a very hard engineering problems.
 For the game I choosed to try to make a multiplayer clone of the famous game Flappy Bird, I called it Flappy Piggy.
