@@ -1,6 +1,6 @@
 # Alexandre de Pape
 
-Welcome to my portofolio.
+Welcome to my portfolio.
 
 There's nothing better than learning by doing, and the projects I've done taught me a huge amount of things about programming.
 
@@ -8,7 +8,7 @@ There's nothing better than learning by doing, and the projects I've done taught
 
 This project consisted in learning how the _Monte Carlo Search Tree_ (MCTS) algorithm worked and how to implement it for Connect4.
 
-I created a frontend with the Javascript library **pixi.js** that communicates with a backend written in Golang that I learned for the occasion.
+I coded a frontend with the **Javascript** library **pixi.js** that communicates with a backend written in **Golang** that I learned for the occasion.
 
 Both parts were deployed on the platform **Heroku**.
 
@@ -77,9 +77,9 @@ For this project, I faced many challenges and had to think about a lot of progra
 I'm a competitive gamer and usually competitive game happen in a multiplayer scenario where players are synchronized across machines to a game state that occurs on a centralized server.
 
 Because I like engineering problems, I had to learn how such a system works. As it turns out, **Game Networking** is a very hard engineering problem.
-For the game, I choosed to make a multiplayer mode of the famous game _Flappy Bird_, and called it Flappy Piggy Online.
+I choosed to make a multiplayer mode of the famous game _Flappy Bird_, and called it Flappy Piggy Online.
 
-During this project I had to learn about a lot of different techniques:
+During this project I had to learn about a lot of different networking techniques used in today's multiplayer game such as Counter Strike, Overwatch and Apex legends:
 - Client prediction
 - Server reconciliation
 - Game loops
