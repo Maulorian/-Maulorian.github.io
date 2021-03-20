@@ -74,14 +74,16 @@ Overall, I spent a lot of time on this project and faced many challenges, but no
 
 ## Project 4 : Creating a multiplayer Flappy Bird in the Browser
 
-I am a competitive gamer and usually competitive game happen in a multiplayer scenario where players are synchronized across machines to a game state that occurs on a centralized server.
+I'm a competitive gamer and usually competitive game happen in a multiplayer scenario where players are synchronized across machines to a game state that occurs on a centralized server.
 
-Because I like challenges so much, I had to learn how such a system works. As it turns out, Game Networking is a very hard engineering problems.
-For the game I choosed to try to make a multiplayer clone of the famous game Flappy Bird, I called it Flappy Piggy.
-During this project I learned about these different techniques:
+Because I like engineering problems, I had to learn how such a system works. As it turns out, **Game Networking** is a very hard engineering problem.
+For the game, I choosed to make a multiplayer mode of the famous game _Flappy Bird_, and called it Flappy Piggy Online.
+
+During this project I had to learn about a lot of different techniques:
 - Client prediction
 - Server reconciliation
 - Game loops
+- Lag compensation
 
 I built the server side in node.js and the client side with the Javascript library pixi.js
 
@@ -89,3 +91,18 @@ I built the server side in node.js and the client side with the Javascript libra
 
 ## Source code
 - https://github.com/Maulorian/Flappypiggy-Multiplayer
+
+## Project 5 : Recreating the Fortnite Building Mechanics with Unity and C#
+
+Fortnite's building system allows you to build walls, stairs, floors, and roofs, and offers a huge amount of gameplay possibilities.
+
+Every time I played the game, I wondered how the system would know that I wanted to place a wall in that spot. So after a while, I decided to code it myself.
+
+For this project, some of the challenges were:
+- How to place the structures on an invisible construction grid.
+- How to save the position of the structures so that you can't build in the same place twice.
+- How to determine that a structure can be built because a connection is possible with another structure.
+- How to recreate the structure editing system.
+- 
+This project involved solving super interesting engineering problems and taught me a lot about 3D simulation and the math behind it like vectors and quaternions.
+For the occasion, I also learned Blender and created 3D models to make the structures look good!
