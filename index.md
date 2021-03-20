@@ -2,7 +2,7 @@
 
 Welcome to my portofolio.
 
-There's nothing better than learning by doing, and the projects I've done taught me a lot about the programming world.
+There's nothing better than learning by doing, and the projects I've done taught me a huge amount of things about programming.
 
 ## Project 1 : Connect 4 Monte Carlo Search Tree
 
