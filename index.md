@@ -22,7 +22,7 @@ The game is playable at:
 - Frontend: https://github.com/Maulorian/connect4_frontend
 - Backend: https://github.com/Maulorian/connect4_backend
 
-## Project 2 : Tetris Clone
+## Project 2 : Tetris
 
 I have a big interest in thinking about how the first video games were made, because their gameplay are so simple and so awesome at the same time. With Tetris, I was intrigued by how the game mechanics worked, the collision, the rotation of pieces, what would happen when you complete a line and so forth. To figure it out, I decided to code my own.
 
