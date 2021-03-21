@@ -63,6 +63,8 @@ Try to beat the AI!
 
 ## Project 3 : Tetris
 
+![tetris](tetris.png)
+
 I was always interested about how the first video games were made, because their gameplay are so simple and so awesome at the same time. With Tetris, I was intrigued by how the game mechanics worked, the collision, the rotation of pieces, what would happen when you complete a line and so forth. To figure it out, I decided to code my own.
 
 First written in Java, I rewrote the code in Javascript with the help of HTML Canvas to be able to deploy it on the web.
@@ -71,7 +73,7 @@ The game is playable at:
 
 [https://pretty-tetris.herokuapp.com/html/solo.html](https://pretty-tetris.herokuapp.com/html/solo.html)
 
-![tetris](tetris.png)
+
 
 ## Source code
 - [https://github.com/Maulorian/Tetris](https://github.com/Maulorian/Tetris)
