@@ -8,7 +8,7 @@ There's nothing better than learning by doing, and the projects I've done taught
 
 This project consisted in learning how the **Monte Carlo Search Tree** ([MCTS](https://www.wikiwand.com/en/Monte_Carlo_tree_search)) algorithm works and how to implement it for Connect4. I had already implement the [Minimax](https://www.wikiwand.com/en/Minimax) for the game but wanted to go further.
 
-I coded the frontend with the _Javascript_ library [PixiJS](https://www.pixijs.com/) that requests moves to an API written in _Golang_.
+I coded the frontend with the _Javascript_ library [PixiJS](https://www.pixijs.com/) that requests moves from an API written in _Golang_.
 
 Both parts were deployed on the platform _Heroku_.
 
@@ -24,7 +24,7 @@ The game is playable at:
 
 ## Project 2 : Tetris
 
-I always was interested in thinking about how the first video games were made, because their gameplay are so simple and so awesome at the same time. With Tetris, I was intrigued by how the game mechanics worked, the collision, the rotation of pieces, what would happen when you complete a line and so forth. To figure it out, I decided to code my own.
+I was always interested about how the first video games were made, because their gameplay are so simple and so awesome at the same time. With Tetris, I was intrigued by how the game mechanics worked, the collision, the rotation of pieces, what would happen when you complete a line and so forth. To figure it out, I decided to code my own.
 
 First written in Java, I rewrote the code in Javascript with the help of HTML Canvas to be able to deploy it on the web.
 
