@@ -51,6 +51,8 @@ The game is playable at:
 
 [https://connect4-vs-ai.herokuapp.com/](https://connect4-vs-ai.herokuapp.com/)
 
+Try to beat the AI!
+
 ![connect4](connect4.png)
 
 ## Source code
