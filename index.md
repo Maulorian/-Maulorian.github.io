@@ -120,5 +120,5 @@ For the occasion, I also learned Blender and created 3D models to make the struc
 
 You can take a look at how it looks on this Youtube link:
 
-[https://youtu.be/BhA5UkhAOMA](https://youtu.be/BhA5UkhAOMA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BhA5UkhAOMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
