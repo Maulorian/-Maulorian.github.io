@@ -97,6 +97,8 @@ I built the server side in node.js and the client side with the Javascript libra
 
 ## Project 5 : Recreating the Fortnite Building Mechanics with Unity and C#
 
+![fortnite.png](fortnite.png)
+
 Fortnite's building system allows you to build walls, stairs, floors, and roofs, and offers a huge amount of gameplay possibilities.
 
 Every time I played the game, I wondered how the system would know that I wanted to place a wall in that spot. So after a while, I decided to code it myself.
@@ -113,3 +115,4 @@ For the occasion, I also learned Blender and created 3D models to make the struc
 You can take a look at how it looks on this Youtube link:
 
 [https://youtu.be/BhA5UkhAOMA](https://youtu.be/BhA5UkhAOMA)
+
