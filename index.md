@@ -6,6 +6,8 @@ There's nothing better than learning by doing, and the projects I've done taught
 
 ## Project 1 : League of Legends Highlights Creator and Uploader
 
+![](league.png)
+
 I love League of Legends, so why not combine two things I love and learn interesting things at the same time?
 
 Some Youtube channels upload games of high ELO players, but they are sometimes 50 minutes long and it takes a long time to watch. So I decided to improve the concept by creating and uploading the best moments of the game, instead of the complete ones.
@@ -34,12 +36,14 @@ To solve this problem, I used Selenium to automate the upload through the browse
 
 For this project, I faced many challenges and had to think about a lot of different solutions and as a result, I got an automated youtube channel:
 
-![](league.png)
+
 
 ## Source code
 - [https://github.com/Maulorian/LeagueUploader](https://github.com/Maulorian/LeagueUploader)
 
 ## Project 2 : Connect 4 Monte Carlo Search Tree
+
+![connect4](connect4.png)
 
 This project consisted in learning how the **Monte Carlo Search Tree** ([MCTS](https://www.wikiwand.com/en/Monte_Carlo_tree_search)) algorithm works and how to implement it for Connect4. I had already implement the [Minimax](https://www.wikiwand.com/en/Minimax) for the game but wanted to go further.
 
@@ -52,8 +56,6 @@ The game is playable at:
 [https://connect4-vs-ai.herokuapp.com/](https://connect4-vs-ai.herokuapp.com/)
 
 Try to beat the AI!
-
-![connect4](connect4.png)
 
 ## Source code
 - Frontend: [https://github.com/Maulorian/connect4_frontend](https://github.com/Maulorian/connect4_frontend)
@@ -77,6 +79,8 @@ The game is playable at:
 
 ## Project 4 : Creating a multiplayer Flappy Bird in the Browser
 
+![](flappy_piggy.png)
+
 I'm a competitive gamer and usually competitive game happen in a multiplayer scenario where players are synchronized across machines to a game state which occurs on a centralized server.
 
 Because I like engineering problems, I had to learn how such a system works. As it turns out, **Game Networking** is a very hard engineering problem.
@@ -90,7 +94,7 @@ During this project I had to learn about a lot of different networking technique
 
 I built the server side in node.js and the client side with the Javascript library pixi.js
 
-![](flappy_piggy.png)
+
 
 ## Source code
 - [https://github.com/Maulorian/Flappypiggy-Multiplayer](https://github.com/Maulorian/Flappypiggy-Multiplayer)
