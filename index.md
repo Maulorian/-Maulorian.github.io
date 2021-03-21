@@ -112,4 +112,4 @@ For the occasion, I also learned Blender and created 3D models to make the struc
 
 You can take a look at how it looks on this Youtube link:
 
-[](url)
+[https://youtu.be/BhA5UkhAOMA](https://youtu.be/BhA5UkhAOMA)
