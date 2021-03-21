@@ -4,40 +4,7 @@ Welcome to my portfolio.
 
 There's nothing better than learning by doing, and the projects I've done taught me a huge amount of things about programming.
 
-## Project 1 : Connect 4 Monte Carlo Search Tree
-
-This project consisted in learning how the **Monte Carlo Search Tree** ([MCTS](https://www.wikiwand.com/en/Monte_Carlo_tree_search)) algorithm works and how to implement it for Connect4. I had already implement the [Minimax](https://www.wikiwand.com/en/Minimax) for the game but wanted to go further.
-
-I coded the frontend with the _Javascript_ library [PixiJS](https://www.pixijs.com/) that requests moves from an API written in _Golang_.
-
-Both parts were deployed on the platform _Heroku_.
-
-The game is playable at:
-
-[https://connect4-vs-ai.herokuapp.com/](https://connect4-vs-ai.herokuapp.com/)
-
-![connect4](connect4.png)
-
-## Source code
-- Frontend: https://github.com/Maulorian/connect4_frontend
-- Backend: https://github.com/Maulorian/connect4_backend
-
-## Project 2 : Tetris
-
-I was always interested about how the first video games were made, because their gameplay are so simple and so awesome at the same time. With Tetris, I was intrigued by how the game mechanics worked, the collision, the rotation of pieces, what would happen when you complete a line and so forth. To figure it out, I decided to code my own.
-
-First written in Java, I rewrote the code in Javascript with the help of HTML Canvas to be able to deploy it on the web.
-
-The game is playable at:
-
-[https://pretty-tetris.herokuapp.com/html/solo.html](https://pretty-tetris.herokuapp.com/html/solo.html)
-
-![tetris](tetris.png)
-
-## Source code
-- https://github.com/Maulorian/Tetris
-
-## Project 3 : League of Legends Highlights Creator and Uploader
+## Project 1 : League of Legends Highlights Creator and Uploader
 
 I love League of Legends, so why not combine two things I love and learn interesting things at the same time?
 
@@ -65,12 +32,46 @@ The main program on my desktop computer would then scan the database and retriev
 - The second challenge I faced was actually uploading the video, because Youtube's API requires you to verify your "application" in order to put your video in public, otherwise it remains locked in private. Also, Youtube has a video upload limit that only allows you to upload about a dozen videos per day.
 To solve this problem, I used Selenium to automate the upload through the browser itself. This solution allowed me to upload 50 videos per day.
 
-For this project, I faced many challenges and had to think about a lot of different solutions.
+For this project, I faced many challenges and had to think about a lot of different solutions and as a result, I got an automated youtube channel:
 
 ![](league.png)
 
 ## Source code
-- https://github.com/Maulorian/LeagueUploader
+- [https://github.com/Maulorian/LeagueUploader](https://github.com/Maulorian/LeagueUploader)
+
+## Project 2 : Connect 4 Monte Carlo Search Tree
+
+This project consisted in learning how the **Monte Carlo Search Tree** ([MCTS](https://www.wikiwand.com/en/Monte_Carlo_tree_search)) algorithm works and how to implement it for Connect4. I had already implement the [Minimax](https://www.wikiwand.com/en/Minimax) for the game but wanted to go further.
+
+I coded the frontend with the _Javascript_ library [PixiJS](https://www.pixijs.com/) that requests moves from an API written in _Golang_.
+
+Both parts were deployed on the platform _Heroku_.
+
+The game is playable at:
+
+[https://connect4-vs-ai.herokuapp.com/](https://connect4-vs-ai.herokuapp.com/)
+
+![connect4](connect4.png)
+
+## Source code
+- Frontend: [https://github.com/Maulorian/connect4_frontend](https://github.com/Maulorian/connect4_frontend)
+- Backend: [https://github.com/Maulorian/connect4_backend](https://github.com/Maulorian/connect4_backend)
+
+## Project 3 : Tetris
+
+I was always interested about how the first video games were made, because their gameplay are so simple and so awesome at the same time. With Tetris, I was intrigued by how the game mechanics worked, the collision, the rotation of pieces, what would happen when you complete a line and so forth. To figure it out, I decided to code my own.
+
+First written in Java, I rewrote the code in Javascript with the help of HTML Canvas to be able to deploy it on the web.
+
+The game is playable at:
+
+[https://pretty-tetris.herokuapp.com/html/solo.html](https://pretty-tetris.herokuapp.com/html/solo.html)
+
+![tetris](tetris.png)
+
+## Source code
+- [https://github.com/Maulorian/Tetris](https://github.com/Maulorian/Tetris)
+
 
 ## Project 4 : Creating a multiplayer Flappy Bird in the Browser
 
@@ -90,7 +91,7 @@ I built the server side in node.js and the client side with the Javascript libra
 ![](flappy_piggy.png)
 
 ## Source code
-- https://github.com/Maulorian/Flappypiggy-Multiplayer
+- [https://github.com/Maulorian/Flappypiggy-Multiplayer](https://github.com/Maulorian/Flappypiggy-Multiplayer)
 
 ## Project 5 : Recreating the Fortnite Building Mechanics with Unity and C#
 
@@ -106,3 +107,7 @@ For this project, some of the challenges were:
 
 This project involved solving super interesting engineering problems and taught me a lot about 3D simulation and the math behind it like vectors and quaternions.
 For the occasion, I also learned Blender and created 3D models to make the structures look good!
+
+You can take a look at how it looks on this Youtube link:
+
+[](url)
