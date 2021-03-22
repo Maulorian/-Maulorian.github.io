@@ -41,7 +41,28 @@ For this project, I faced many challenges and had to think about a lot of differ
 ## Source code
 - [https://github.com/Maulorian/LeagueUploader](https://github.com/Maulorian/LeagueUploader)
 
-## Project 2 : Connect 4 Monte Carlo Search Tree
+## Project 2 : Recreating the Fortnite Building Mechanics with Unity and C#
+
+![fortnite.png](fortnite.png)
+
+Fortnite's building system allows you to build walls, stairs, floors, and roofs, and offers a huge amount of gameplay possibilities.
+
+Every time I played the game, I wondered how the system would know that I wanted to place a wall in that spot. So after a while, I decided to code it myself.
+
+For this project, some of the challenges were:
+- How to place the structures on an invisible construction grid.
+- How to save the position of the structures so that you can't build in the same place twice.
+- How to determine that a structure can be built because a connection is possible with another structure.
+- How to recreate the structure editing system.
+
+This project involved solving super interesting engineering problems and taught me a lot about 3D simulation and the math behind it like vectors and quaternions.
+For the occasion, I also learned Blender and created 3D models to make the structures look good!
+
+You can take a look at how it looks on this Youtube link:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BhA5UkhAOMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Project 3 : Connect 4 Monte Carlo Search Tree
 
 ![connect4](connect4.png)
 
@@ -61,7 +82,7 @@ Try to beat the AI!
 - Frontend: [https://github.com/Maulorian/connect4_frontend](https://github.com/Maulorian/connect4_frontend)
 - Backend: [https://github.com/Maulorian/connect4_backend](https://github.com/Maulorian/connect4_backend)
 
-## Project 3 : Tetris
+## Project 4 : Tetris
 
 ![tetris](tetris.png)
 
@@ -79,7 +100,7 @@ The game is playable at:
 - [https://github.com/Maulorian/Tetris](https://github.com/Maulorian/Tetris)
 
 
-## Project 4 : Creating a multiplayer Flappy Bird in the Browser
+## Project 5 : Creating a multiplayer Flappy Bird in the Browser
 
 ![](flappy_piggy.png)
 
@@ -101,24 +122,5 @@ I built the server side in node.js and the client side with the Javascript libra
 ## Source code
 - [https://github.com/Maulorian/Flappypiggy-Multiplayer](https://github.com/Maulorian/Flappypiggy-Multiplayer)
 
-## Project 5 : Recreating the Fortnite Building Mechanics with Unity and C#
 
-![fortnite.png](fortnite.png)
-
-Fortnite's building system allows you to build walls, stairs, floors, and roofs, and offers a huge amount of gameplay possibilities.
-
-Every time I played the game, I wondered how the system would know that I wanted to place a wall in that spot. So after a while, I decided to code it myself.
-
-For this project, some of the challenges were:
-- How to place the structures on an invisible construction grid.
-- How to save the position of the structures so that you can't build in the same place twice.
-- How to determine that a structure can be built because a connection is possible with another structure.
-- How to recreate the structure editing system.
-
-This project involved solving super interesting engineering problems and taught me a lot about 3D simulation and the math behind it like vectors and quaternions.
-For the occasion, I also learned Blender and created 3D models to make the structures look good!
-
-You can take a look at how it looks on this Youtube link:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BhA5UkhAOMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
