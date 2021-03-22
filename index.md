@@ -10,7 +10,7 @@ There's nothing better than learning by doing, and the projects I've done taught
 
 I love League of Legends, so why not combine two things I love and learn interesting things at the same time?
 
-Some Youtube channels upload games of high ELO players, but they are sometimes 50 minutes long and it takes a long time to watch. So I decided to improve the concept by creating and uploading the best moments of the game, instead of the complete ones.
+Some Youtube channels upload games of high ELO players, but they are sometimes 50 minutes long and it takes a long time to watch. So I decided to improve the concept by creating and uploading the key moments of a match instead.
 
 For this project, I had to learn how to open and close programs, send input keys to programs, create an algorithm that creates a ~5 minute video from a ~40 minute video with [moviepy](https://zulko.github.io/moviepy/) and how to upload and edit video on Youtube automatically.
 
