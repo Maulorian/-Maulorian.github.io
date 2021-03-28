@@ -16,7 +16,7 @@ For this project, I had to learn how to open and close programs, send input keys
 
 The steps of the process are the following:
 
-1. **Find** Challenger games not yet registered in the database (MongoDB). This is done by a microservice running 24 hours a day, 7 days a week: https://github.com/Maulorian/RecordingsEnabler/tree/master.
+1. **Find** Challenger games not yet registered in the database (MongoDB). This is done by a microservice running 24 hours a day, 7 days a week: https://github.com/alexandredepape/RecordingsEnabler/tree/master.
 2. **Scan** these games with the help of the Riot Games API and choose the **most relevant** player to watch by looking at kills, damage done, etc.
 3. **Open** *League of Legends* and OBS Studio (https://obsproject.com/) and send inputs to **select** the player, **hide** the fog of war and **record** the game.
 4. **Create** a 5-10 minute video from a 30-40 minute game, based on the timeline of events and their timestamps, such as kills, deaths, epic monsters, etc.
@@ -39,7 +39,7 @@ For this project, I faced many challenges and had to think about a lot of differ
 
 
 ## Source code
-- [https://github.com/Maulorian/LeagueUploader](https://github.com/Maulorian/LeagueUploader)
+- [https://github.com/alexandredepape/LeagueUploader](https://github.com/alexandredepape/LeagueUploader)
 
 ## Project 2 : Recreating the Fortnite Building Mechanics with Unity and C#
 
@@ -79,8 +79,8 @@ The game is playable at:
 Try to beat the AI!
 
 ## Source code
-- Frontend: [https://github.com/Maulorian/connect4_frontend](https://github.com/Maulorian/connect4_frontend)
-- Backend: [https://github.com/Maulorian/connect4_backend](https://github.com/Maulorian/connect4_backend)
+- Frontend: [https://github.com/alexandredepape/connect4_frontend](https://github.com/alexandredepape/connect4_frontend)
+- Backend: [https://github.com/alexandredepape/connect4_backend](https://github.com/alexandredepape/connect4_backend)
 
 ## Project 4 : Tetris
 
@@ -97,7 +97,7 @@ The game is playable at:
 
 
 ## Source code
-- [https://github.com/Maulorian/Tetris](https://github.com/Maulorian/Tetris)
+- [https://github.com/alexandredepape/Tetris](https://github.com/alexandredepape/Tetris)
 
 
 ## Project 5 : Creating a multiplayer Flappy Bird in the Browser
@@ -120,7 +120,7 @@ I built the server side in node.js and the client side with the Javascript libra
 
 
 ## Source code
-- [https://github.com/Maulorian/Flappypiggy-Multiplayer](https://github.com/Maulorian/Flappypiggy-Multiplayer)
+- [https://github.com/alexandredepape/Flappypiggy-Multiplayer](https://github.com/alexandredepape/Flappypiggy-Multiplayer)
 
 
 
