@@ -1,5 +1,7 @@
-# Personal Projects
 
+<p align="center">
+  <img src="mandalorian.png" height=400 />
+</p>
 This website holds a record of the projects I've done to improve my knowledge in topics such as Software Development, Game Development, Tasks Automation, Networking and DevOps. For each of them, I tried to polish them as much as I could and here is the final results:
 
 ## 1. Youtube Bot: League of Legends clip creator and uploader:
