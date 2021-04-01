@@ -2,7 +2,7 @@
 
 This website holds a record of the projects I've done to improve my knowledge in topics such as Software Development, Game Development, Tasks Automation, Networking and DevOps. For each of them, I tried to polish them as much as I could and here is the final results:
 
-## Project 1 : League of Legends Highlights Creator and Uploader
+## 1. Youtube Bot: League of Legends clip creator and uploader:
 
 ![](league.png)
 
@@ -19,7 +19,7 @@ The steps of the process are the following:
 3. **Open** *League of Legends* and OBS Studio (https://obsproject.com/) and send inputs to **select** the player, **hide** the fog of war and **record** the game.
 4. **Create** a 5-10 minute video from a 30-40 minute game, based on the timeline of events and their timestamps, such as kills, deaths, epic monsters, etc.
 5. **Create** a thumbnail for the video based on metadata such as objects, deaths, runes, which will be uploaded with the video with PILLOW.
-6. **Upload** the video to the **Challenger Highlights** *Youtube* channel: https://www.youtube.com/channel/UCz2zp337iZ9xkpLDACxpRHA
+6. **Upload** the video to the **Challenger Highlights** *Youtube* channel
 
 
 During this project I faced two huge challenges.
@@ -34,12 +34,13 @@ To solve this problem, I used Selenium to automate the upload through the browse
 
 For this project, I faced many challenges and had to think about a lot of different solutions and as a result, I got an automated youtube channel:
 
-
+### Youtube Link:
+- [https://www.youtube.com/channel/UCz2zp337iZ9xkpLDACxpRHA](https://www.youtube.com/channel/UCz2zp337iZ9xkpLDACxpRHA)
 
 ### Source code
 - [https://github.com/alexandredepape/LeagueUploader](https://github.com/alexandredepape/LeagueUploader)
 
-## Project 2 : Recreating the Fortnite Building Mechanics with Unity and C#
+## 2. Fortnite Building System with Unity and C#
 
 ![fortnite.png](fortnite.png)
 
@@ -60,7 +61,7 @@ You can take a look at how it looks on this Youtube link:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BhA5UkhAOMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Project 3 : Connect 4 Monte Carlo Search Tree
+## 3. Connect 4 Artificial Intelligence (Monte Carlo Search Tree)
 
 ![connect4](connect4.png)
 
@@ -80,7 +81,7 @@ Try to beat the AI!
 - Frontend: [https://github.com/alexandredepape/connect4_frontend](https://github.com/alexandredepape/connect4_frontend)
 - Backend: [https://github.com/alexandredepape/connect4_backend](https://github.com/alexandredepape/connect4_backend)
 
-## Project 4 : Tetris
+## 4. Tetris
 
 ![tetris](tetris.png)
 
@@ -96,7 +97,7 @@ First written in Java, I rewrote the code in Javascript with the help of HTML Ca
 - [https://github.com/alexandredepape/Tetris](https://github.com/alexandredepape/Tetris)
 
 
-## Project 5 : Creating a multiplayer Flappy Bird in the Browser
+## 5. Multiplayer Flappy Bird
 
 ![](flappy_piggy.png)
 
