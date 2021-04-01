@@ -1,8 +1,6 @@
-# Alexandre de Pape
+# Personal Projects
 
-Welcome to my portfolio.
-
-There's nothing better than learning by doing, and the projects I've done taught me a huge amount of things about programming.
+This website holds a record of the projects I've done to improve my knowledge in topics such as Software Development, Game Development, Tasks Automation, Networking and DevOps. For each of them, I tried to polish them as much as I could and here is the final results:
 
 ## Project 1 : League of Legends Highlights Creator and Uploader
 
@@ -38,7 +36,7 @@ For this project, I faced many challenges and had to think about a lot of differ
 
 
 
-## Source code
+### Source code
 - [https://github.com/alexandredepape/LeagueUploader](https://github.com/alexandredepape/LeagueUploader)
 
 ## Project 2 : Recreating the Fortnite Building Mechanics with Unity and C#
@@ -72,13 +70,13 @@ I coded the frontend with the _Javascript_ library [PixiJS](https://www.pixijs.c
 
 Both parts were deployed on the platform _Heroku_.
 
-The game is playable at:
+### Playable at:
 
 [https://connect4-vs-ai.herokuapp.com/](https://connect4-vs-ai.herokuapp.com/)
 
 Try to beat the AI!
 
-## Source code
+### Source code
 - Frontend: [https://github.com/alexandredepape/connect4_frontend](https://github.com/alexandredepape/connect4_frontend)
 - Backend: [https://github.com/alexandredepape/connect4_backend](https://github.com/alexandredepape/connect4_backend)
 
@@ -90,13 +88,11 @@ I was always interested about how the first video games were made, because their
 
 First written in Java, I rewrote the code in Javascript with the help of HTML Canvas to be able to deploy it on the web.
 
-The game is playable at:
+### Playable at:
 
-[https://pretty-tetris.herokuapp.com/html/solo.html](https://pretty-tetris.herokuapp.com/html/solo.html)
+- [https://pretty-tetris.herokuapp.com/html/solo.html](https://pretty-tetris.herokuapp.com/html/solo.html)
 
-
-
-## Source code
+### Source code
 - [https://github.com/alexandredepape/Tetris](https://github.com/alexandredepape/Tetris)
 
 
@@ -118,8 +114,11 @@ During this project I had to learn about a lot of different networking technique
 I built the server side in node.js and the client side with the Javascript library pixi.js
 
 
+### Playable at the following link:
 
-## Source code
+- [https://flappy-online.herokuapp.com/](https://flappy-online.herokuapp.com/)
+
+### Source code
 - [https://github.com/alexandredepape/Flappypiggy-Multiplayer](https://github.com/alexandredepape/Flappypiggy-Multiplayer)
 
 
