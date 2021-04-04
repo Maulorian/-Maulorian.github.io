@@ -1,8 +1,12 @@
-This website holds a record of the projects I've done to improve my knowledge in topics such as Software Development, Game Development, Tasks Automation, Networking and DevOps.
+# Introduction
 
 <p align="center">
-  <img src="mandalorian.png" height=400 />
+  <img src="mandalorian.png" height=300 />
 </p>
+
+This website holds a record of the projects I've done to improve my knowledge in topics such as Software Development, Game Development, Tasks Automation, Networking and DevOps.
+
+
 
 
 ## 1. Youtube Bot: League of Legends clip creator and uploader:
