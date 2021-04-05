@@ -65,7 +65,7 @@ For the occasion, I also learned Blender and created 3D models to make the struc
 
 ### Demo:
 
-<iframe align='center' src="https://www.youtube.com/embed/BhA5UkhAOMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe align='center' width="800" height="315" src="https://www.youtube.com/embed/BhA5UkhAOMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 3. Connect 4 Artificial Intelligence (Monte Carlo Search Tree)
 
@@ -121,7 +121,7 @@ During this project I had to learn about a lot of different networking technique
 I built the server side in node.js and the client side with the Javascript library pixi.js
 
 ### Demo:
-<iframe align='center' width="600" height="315" src="https://youtu.be/ePaXQ-Z9uRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe align='center' width="800" height="315" src="https://youtu.be/ePaXQ-Z9uRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Playable at the following link:
 
