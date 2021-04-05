@@ -1,11 +1,10 @@
-# Introduction
+# Alexandre de Pape - Personnal Projects
 
 <p align="center">
   <img src="mandalorian.png" height=300 />
 </p>
 
-This website holds a record of the projects I've done to improve my knowledge in topics such as Software Development, Game Development, Tasks Automation, Networking and DevOps.
-
+This website holds a record of the projects I've done to greatly improve my knowledge in topics such as Software Development, Game Development, Tasks Automation, Networking and DevOps.
 
 
 
