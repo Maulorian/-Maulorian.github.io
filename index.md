@@ -79,7 +79,7 @@ Both parts were deployed on the platform _Heroku_.
 
 ### Playable at:
 
-[https://connect4-vs-ai.herokuapp.com/](https://connect4-vs-ai.herokuapp.com/)
+- [https://connect4-vs-ai.herokuapp.com/](https://connect4-vs-ai.herokuapp.com/)
 
 Try to beat the AI!
 
@@ -121,7 +121,7 @@ During this project I had to learn about a lot of different networking technique
 I built the server side in node.js and the client side with the Javascript library pixi.js
 
 ### Demo:
-<iframe width="600" height="315" src="https://www.youtube.com/embed/ePaXQ-Z9uRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- https://www.youtube.com/watch?v=ePaXQ-Z9uRw
 
 ### Playable at the following link:
 
