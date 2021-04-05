@@ -121,7 +121,8 @@ During this project I had to learn about a lot of different networking technique
 I built the server side in node.js and the client side with the Javascript library pixi.js
 
 ### Demo:
-- https://www.youtube.com/watch?v=ePaXQ-Z9uRw
+- [](https://www.youtube.com/watch?v=ePaXQ-Z9uRw)
+<iframe align='center' width="600" height="315" src="https://www.youtube.com/embed/ePaXQ-Z9uRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Playable at the following link:
 
