@@ -131,5 +131,28 @@ I built the server side in node.js and the client side with the Javascript libra
 ### Source code
 - [https://github.com/alexandredepape/Flappypiggy-Multiplayer](https://github.com/alexandredepape/Flappypiggy-Multiplayer)
 
+## 5. Chess Board Recognition
+For this project, my goal was to create an app that takes a pictures as an input and detect any chess boards in the image, extract the FEN position with Computer Vision and gives the best move available for the player.
 
+Create of the dataset:
+
+For the creation of the dataset I took every chessboards available on [the lichess board editor](https://lichess.org/editor) and screenshotted them, for every combination of pieces set and boards, that was a total of 503 images.
+
+I then created a Python Script that extracts each piece on each background for each color. I then utilized the Keras library to apply data augmentation by randomly rotating each images and obtained a data set of 9k images for each class.
+
+I then trained a classification model to recognize the pieces.
+
+I then create a Python script that takes an image of a chessboard, crops the board in 64 squares and infers each squares to its piece. Resulting in a FEN position
+
+For instance, this image
+
+<img src="chessposition.png" height=300 />
+
+gave:
+
+**8/R7/3rbB2/7p/p2K1P1P/6r1/8/8 w - - 0 1**
+
+which is correct
+### Source code
+- [https://github.com/alexandredepape/Chess-Image-To-Fen](https://github.com/alexandredepape/Chess-Image-To-Fen)
 
