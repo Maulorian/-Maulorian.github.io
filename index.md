@@ -1,8 +1,5 @@
 # Alexandre de Pape - Personnal Projects
 
-<p align="center">
-  <img src="mandalorian.png" height=300 />
-</p>
 
 This website holds a record of the projects I've done to greatly improve my knowledge in topics such as Software Development, Game Development, Tasks Automation, Networking and DevOps.
 
@@ -155,4 +152,8 @@ gave:
 which is correct
 ### Source code
 - [https://github.com/alexandredepape/Chess-Image-To-Fen](https://github.com/alexandredepape/Chess-Image-To-Fen)
+
+Demo of the Frontend application:
+
+<iframe align='center' width="600" height="315" src="[https://www.youtube.com/embed/ePaXQ-Z9uRw](https://www.youtube.com/shorts/l2QCLhz-r7g)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
