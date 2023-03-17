@@ -158,6 +158,7 @@ Demo of the Frontend application:
 <iframe align='center' width="600" height="315" src="https://www.youtube.com/shorts/l2QCLhz-r7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 6. Language Learning with Netflix Chrome Extension
+![](yazik.png)
 For this project, my goal was to create an app that allows users to have a double captions system where for instance if you were to learn French, and your mother tongue was English, you would pick a movie in french with french subtitles, but the english subtitles were also displayed.
 
 For this project, I learned how to create a Chrome extension, and how to use react within the extension. Turns out, the trick is to use Webpack to bundle the js into the main content.js file that gets injected in the extension.
