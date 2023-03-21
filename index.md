@@ -1,4 +1,4 @@
-# Alexandre de Pape - Personnal Projects
+# Alexandre de Pape - Projects
 
 
 This website holds a record of the projects I've done to greatly improve my knowledge in topics such as Software Development, Game Development, Tasks Automation, Networking and DevOps.
