@@ -5,7 +5,7 @@ This website holds a record of the projects I've done to greatly improve my know
 
 
 
-## Youtube Bot: League of Legends clip creator and uploader:
+## Youtube Bot: League of Legends games highlights creator and uploader:
 
 ![](league.png)
 
