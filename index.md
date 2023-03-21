@@ -5,7 +5,7 @@ This website holds a record of the projects I've done to greatly improve my know
 
 
 
-## 1. Youtube Bot: League of Legends clip creator and uploader:
+## Youtube Bot: League of Legends clip creator and uploader:
 
 ![](league.png)
 
@@ -43,7 +43,42 @@ For this project, I faced many challenges and had to think about a lot of differ
 ### Source code
 - [https://github.com/alexandredepape/LeagueUploader](https://github.com/alexandredepape/LeagueUploader)
 
-## 2. Fortnite Building System with Unity and C#
+## Language Learning with Netflix Chrome Extension
+![](yazik.png)
+For this project, my goal was to create an app that allows users to have a double captions system where for instance if you were to learn French, and your mother tongue was English, you would pick a movie in french with french subtitles, but the english subtitles were also displayed.
+
+For this project, I learned how to create a Chrome extension, and how to use react within the extension. Turns out, the trick is to use Webpack to bundle the js into the main content.js file that gets injected in the extension.
+
+I learned a lot about coding with a reusable component framework such as React.js. For the state management, I decided to go for )[https://github.com/pmndrs/zustand](Zustand), a new library that makes state managment 10x less verbose than Redux, and way easier, for reference, you simply define the store like this:
+
+```javascript
+import { create } from 'zustand'
+
+const useBearStore = create((set) => ({
+  bears: 0,
+  increasePopulation: () => set((state) => ({ bears: state.bears + 1 })),
+  removeAllBears: () => set({ bears: 0 }),
+}))
+```
+
+and use it in a component like this:
+
+```javascript
+function BottomPanel(){
+    const isNetflixLoading = useGlobalStore(state => state.isNetflixLoading); 
+    return (
+        <div>
+            {isNetflixLoading ? "Yeaaaah" : "Noooooo"}
+        </div>
+    )
+}
+```
+
+For this project I also created a backend to store the subtitles, the information about the movies, the languages, etc. I choose to use Python with the fastAPI framework alongside SQLalchemy as an ORM to work with my data. I deployed the thing on fly.io, and amazing hosting tool that makes it very easy to work. For the database, I choose Postgres, that I hosted on Supabase.com.
+
+Overall, I leveraged a lot about Frontend development, React, Typescript, Chrome Extensions.
+
+## Fortnite Building System with Unity and C#
 
 ![fortnite.png](fortnite.png)
 
@@ -84,7 +119,7 @@ Try to beat the AI!
 - Frontend: [https://github.com/alexandredepape/connect4_frontend](https://github.com/alexandredepape/connect4_frontend)
 - Backend: [https://github.com/alexandredepape/connect4_backend](https://github.com/alexandredepape/connect4_backend)
 
-## 4. Tetris
+## Tetris
 
 ![tetris](tetris.png)
 
@@ -100,7 +135,7 @@ First written in Java, I rewrote the code in Javascript with the help of HTML Ca
 - [https://github.com/alexandredepape/Tetris](https://github.com/alexandredepape/Tetris)
 
 
-## 5. Multiplayer Flappy Bird
+## Multiplayer Flappy Bird
 
 ![](flappy_piggy.png)
 
@@ -128,7 +163,7 @@ I built the server side in node.js and the client side with the Javascript libra
 ### Source code
 - [https://github.com/alexandredepape/Flappypiggy-Multiplayer](https://github.com/alexandredepape/Flappypiggy-Multiplayer)
 
-## 5. Chess Board Recognition
+## Chess Board Recognition
 For this project, my goal was to create an app that takes a pictures as an input and detect any chess boards in the image, extract the FEN position with Computer Vision and gives the best move available for the player.
 
 Create of the dataset:
@@ -157,39 +192,6 @@ Demo of the Frontend application:
 
 <iframe align='center' width="600" height="315" src="https://www.youtube.com/shorts/l2QCLhz-r7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 6. Language Learning with Netflix Chrome Extension
-![](yazik.png)
-For this project, my goal was to create an app that allows users to have a double captions system where for instance if you were to learn French, and your mother tongue was English, you would pick a movie in french with french subtitles, but the english subtitles were also displayed.
 
-For this project, I learned how to create a Chrome extension, and how to use react within the extension. Turns out, the trick is to use Webpack to bundle the js into the main content.js file that gets injected in the extension.
-
-I learned a lot about coding with a reusable component framework such as React.js. For the state management, I decided to go for )[https://github.com/pmndrs/zustand](Zustand), a new library that makes state managment 10x less verbose than Redux, and way easier, for reference, you simply define the store like this:
-
-```javascript
-import { create } from 'zustand'
-
-const useBearStore = create((set) => ({
-  bears: 0,
-  increasePopulation: () => set((state) => ({ bears: state.bears + 1 })),
-  removeAllBears: () => set({ bears: 0 }),
-}))
-```
-
-and use it in a component like this:
-
-```javascript
-function BottomPanel(){
-    const isNetflixLoading = useGlobalStore(state => state.isNetflixLoading); 
-    return (
-        <div>
-            {isNetflixLoading ? "Yeaaaah" : "Noooooo"}
-        </div>
-    )
-}
-```
-
-For this project I also created a backend to store the subtitles, the information about the movies, the languages, etc. I choose to use Python with the fastAPI framework alongside SQLalchemy as an ORM to work with my data. I deployed the thing on fly.io, and amazing hosting tool that makes it very easy to work. For the database, I choose Postgres, that I hosted on Supabase.com.
-
-Overall, I learned a lot about Frontend development, it was my first project with React and I loved it.
 
 
