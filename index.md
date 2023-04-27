@@ -64,13 +64,14 @@ const useBearStore = create((set) => ({
 and use it in a component like this:
 
 ```javascript
-function BottomPanel(){
-    const isNetflixLoading = useGlobalStore(state => state.isNetflixLoading); 
-    return (
-        <div>
-            {isNetflixLoading ? "Yeaaaah" : "Noooooo"}
-        </div>
-    )
+function BearCounter() {
+  const bears = useBearStore((state) => state.bears)
+  return <h1>{bears} around here ...</h1>
+}
+
+function Controls() {
+  const increasePopulation = useBearStore((state) => state.increasePopulation)
+  return <button onClick={increasePopulation}>one up</button>
 }
 ```
 
